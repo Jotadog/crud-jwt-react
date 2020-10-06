@@ -6,7 +6,7 @@ import CreateUser from './pages/CreateUser';
 import Dashboard from './pages/Dashboard';
 import UpdateUser from './pages/UpdateUser';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
@@ -20,5 +20,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
